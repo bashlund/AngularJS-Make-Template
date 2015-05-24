@@ -1,0 +1,14 @@
+{
+    "bitwise": false,
+    "eqeqeq": true,
+    "forin": true,
+    "funcscope": true,
+    "futurehostile": true,
+    "globals": { "angular": true },
+    "maxerr": 10,
+    "notypeof": true,
+    "undef": true,
+    "unused": false,
+    "strict": true,
+    "browser": true
+}
