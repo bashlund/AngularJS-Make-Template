@@ -1,11 +1,13 @@
 #AngularJS-Make-Template
 This is a AngularJS stub project using `Make` and `Bash` as building tools (instead of `Grunt` or `Gulp`) and `Bower` as browser package manager.
 
+The current version of this stub project uses AngularJS version 1.4.
+
 ##Dependencies
 ###Bash
 Comes with your GNU/Linux or OSX distribution.
 ###GNU Make
-Usually preinstalled, install with:
+Usually pre installed, install with:
 ```
 sudo apt-get install make
 ```
@@ -63,9 +65,9 @@ this original repo.
 
 Edit `bower.json` to reflect your project.
 
-Replace the `LICENSE` file as you feel appropiate.
+Replace the `LICENSE` file as you feel appropriate.
 
-Then, recreate the git repo and optionally connect it to your github repo.
+Then, recreate the git repo and optionally connect it to your GitHub repo.
 
 ```
 git init
@@ -81,7 +83,7 @@ Some default packages are present. Then install packages:
 ```
 bower install
 ```
-When you add or remove packages with Bower ake sure you then include or remove the javasript and possible CSS references in the `index.html` file.
+When you add or remove packages with Bower make sure you then include or remove the JavaScript and possible CSS references in the `index.html` file.
 
 ##How to use
 First time make sure you have got all bower packages, as described above.
@@ -100,14 +102,15 @@ make serve
 ```
 `make serve` runs the `serve.sh` script to start the default web server serving from the build/ directory. The web server
 run is the python `SimpleHTTPServer` on port 8080.
-If you want to run another web server, just point it to
-the build/ directory.
+
+If you want to run another web server, just point that web server to the `build/` directory.
 
 ###Watch for changes
 If you want automatic builds when files change in the source directories, run in another terminal window:
 ```
 make watch
 ```
+When using `make watch` you can re build the project by pressing `ctrl \`
 
 ##Project structure
 ###ng/
